@@ -521,6 +521,7 @@ ENDE
 [[B-2ab_Weiter &lt;-Nochmal probieren. ]]</tw-passagedata><tw-passagedata pid="23" name="4-1-2_Unendliche Gerichte " tags="Phantasien" position="476,1535" size="100,100">config.style.page.color: &#39;cyan-9&#39;
 
 sound.effect.4-1b.playing: false
+sound.effect.4-1-2.playing: false
 
 sound.effect.4-1-2.url: &#39;audio/4-1-2.mp3&#39;
 
@@ -1726,7 +1727,7 @@ Vielleicht könnte ihr der unscheinbare, schüchterne Thomá helfen? Ihr rostige
 
 &gt; [[B-7a_Gonzales&lt;-Gonzales]] 
 &gt; [[B-7b_Raffi&lt;-Raffi]] 
-&gt; [[B-7c_Ambush&lt;-Ambush]] </tw-passagedata><tw-passagedata pid="71" name="0_Start" tags="" position="457,67" size="100,100">config.body.transition.name: &#39;fadeInOut&#39;
+&gt; [[B-7c_Ambush&lt;-Ambush]] </tw-passagedata><tw-passagedata pid="71" name="0_Start" tags="" position="1453,43" size="100,100">config.body.transition.name: &#39;fadeInOut&#39;
 config.body.transition.duration: &#39;100ms&#39;
 config.header.center: &quot;DIE UNVERSTÄNDLICHE GESCHICHTE - {passage.name}&quot;
 config.footer.left: &quot;{back link, label: &#39;Schritt zurück&#39;}&quot;
@@ -1746,15 +1747,24 @@ sound.effect.2-0.url: &#39;audio/2-0.mp3&#39;
 
 --
 
+[align center]
 {embed image: &#39;img/cover.png&#39;}
 
 Dein Name: {text input for: &#39;$spieler&#39;, required: false}
 
 Sound: {dropdown menu for: &#39;$audiocheck&#39;, choices: [&#39;Ja&#39;, &#39;Nein&#39;]}
 
+[[4-0_Lesen4 &lt;-Schnellstart (Osten Norden oder Westen?)]] 
+
 [[5-0_Biene Mara &lt;-Schnellstart (Biene Mara)]] 
+
 [[6-0_Südliches Kloakl &lt;-Schnellstart (Südliches Kloakl)]] 
 
+[[7-0_Der Alte&lt;-Schnellstart (Der Alte)]]
+
+[[I-1_Oberkotzau&lt;-Schnellstart (Oberkotzau)]] 
+
+***
 
 &gt; [[A-1_Vorhang auf&lt;-**Los gehts!**]]
 &gt; [[X_About&lt;-Hilfe und sonstige Infos]]</tw-passagedata><tw-passagedata pid="72" name="4-1-2b_ZweiterTeil_Katheke " tags="Phantasien" position="521,1698" size="100,100">config.style.page.color: &#39;cyan-9&#39;
@@ -1948,9 +1958,11 @@ sound.effect.E-1b.url: &#39;audio/E-1b.mp3&#39;
 
 [continue]
 
-Während Simi Santana auf die Toilette verschwand, nutzte Mara die Gelegenheit, um von den anderen brisante Details aus Simis wilder Studentenzeit zu erfahren. Wie aus der Pistole getroffen, schoss Sophie los:
+Während Simi Santana auf die Toilette verschwand, nutzte Mara die Gelegenheit, um von den anderen brisante Details aus Simis wilder Studentenzeit zu erfahren. Wie aus der Pistole getroffen schoss Sophie los:
 
-*Erzählung von Sophie*
+&quot;Da gab es eine sehr unangenehme Weihnachtsfeier beim Airport-Liner, wo Simi und ich anwesend waren. Und wir waren ja beide bloß da als Minijobber und waren plötzlich in einem sehr unangenehmen Gespräch,
+Und der Chef erzählte plötz
+Und wussten auch nicht, ob der Chef die Rechnung übernimmt, und haben deswegen das günstigste gegessen... *Gelächter* ... einfach ein Highlight!&quot;
 
 So und so ähnlich ging es noch für einige Zeit weiter und das heitere Gelächter peitschte durch die sternenklare Nacht. Auch Simi Santana war irgendwann zurückgekehrt und [[E-2_küche&lt;-stimmte mit ein]]. </tw-passagedata><tw-passagedata pid="82" name="E-1b_Ricos Oma" tags="Real-Life" position="2486,4723" size="100,100">config.style.page.color: &#39;red-9&#39;
 
@@ -2702,7 +2714,7 @@ TO BE CONTINUED
 * * *
 
 
-[[Auswertung&lt;-(War halt doch nur ne endliche, wenn auch sehr unverständliche Geschichte)]]</tw-passagedata><tw-passagedata pid="121" name="X_About" tags="" position="342,207" size="100,100">{back link, label: &#39;*Zurück*&#39;}
+[[Auswertung&lt;-(War halt doch nur ne endliche, wenn auch sehr unverständliche Geschichte)]]</tw-passagedata><tw-passagedata pid="121" name="X_About" tags="" position="1650,59" size="100,100">{back link, label: &#39;*Zurück*&#39;}
 
 ***
 
@@ -2724,6 +2736,8 @@ Erdacht und erbrochen von Timotheus Riedel und Lewinius Schmitt, ermöglicht dur
 - **Ich habe ein Problem mit dem Spiel, was soll ich tun?** Erst mal die Seite neu laden. Wenn das nicht hilft, einen besseren Browser verwenden (aktuelle Version von Firefox, Chrome, Edge oder Safari). Wenn das auch nicht hilft, mal den Link im Incognito-Modus öffnen. Wenn das auch nicht hilft, verzweifeln und den Kopf in die Hand stecken.
 
 - **Wie speichere ich meinen Spielfortschritt?** Das Spiel speichert den Spielfortschritt automatisch in deinem Browser (durch einen sog. Cookie). D.h., wenn du den Browser oder das Endgerät wechselst, verlierst du deinen Spielfortschritt, genauso wie wenn du deinen Browser-Cache löschst oder im anonymen Modus surfst.
+
+- **Die Tonspuren überlagern sich, was soll ich tun?** Am besten geduldig sein. Das Problem löst sich normalerweise von selbst, wenn man die Tonspuren einmal bis zu ihrem Ende durchlaufen lässt. Ab dann läuft es wieder normal. Ansonsten kann ggf. auch ein Neuladen der Seite Abhilfe verschaffen.
 
 - **An wen kann ich mich wenden, wenn ich Beschwerden habe?** An die Verbraucherzentrale natürlich.
 
@@ -2997,7 +3011,7 @@ Punktestand für {$spieler}: {$endstand}
 
 ***
 
-**Zum [[Y_Abspann&lt;-Abspann]].</tw-passagedata><tw-passagedata pid="134" name="Y_Abspann" tags="" position="468,293" size="100,100">sound.effect.A-0.playing: false
+**Zum [[Y_Abspann&lt;-Abspann]].</tw-passagedata><tw-passagedata pid="134" name="Y_Abspann" tags="" position="1868,157" size="100,100">sound.effect.A-0.playing: false
 
 sound.effect.abspann.url: &#39;audio/abspann.mp3&#39;
 
